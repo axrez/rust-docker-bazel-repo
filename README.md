@@ -2,7 +2,7 @@
 
 This repo was create as part of an issue create on the `bazel/rules_docker` repo.
 
-The errors below can each be reproduced on the branch with the corresponding number:
+The errors below can each be reproduced on the branch with the corresponding number by running `bazel build //... --define=VERBOSE_LOGS=1`:
 
 1:
 
