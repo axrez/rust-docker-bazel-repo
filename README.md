@@ -18,3 +18,13 @@ INFO: 0 processes.
 FAILED: Build did NOT complete successfully (2 packages loaded, 271 targets configured)
     currently loading: @io_bazel_rules_docker//
 ```
+
+3:
+
+```
+ERROR: /Users/emilio/Code/test/rust-bazel-image/rust/BUILD.bazel:3:11: While resolving toolchains for target //rust:bin_binary: no matching toolchains found for types @rules_rust//rust:toolchain
+ERROR: Analysis of target '//rust:bin' failed; build aborted:
+INFO: Elapsed time: 4.645s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully (73 packages loaded, 1357 targets configured)
+```
